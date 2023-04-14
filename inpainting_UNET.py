@@ -1,15 +1,11 @@
 import os
 import cv2
 import numpy as np
+import random
 
-import matplotlib.pyplot as plt
-from mpl_toolkits.axes_grid1 import ImageGrid
 import tensorflow as tf
 from tensorflow import keras
-import random
 from sklearn.model_selection import train_test_split
-
-from CreateGeneratorModel import GeneratorModel
 
 
 """
